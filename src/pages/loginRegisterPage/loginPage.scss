@@ -1,0 +1,32 @@
+
+.loginPageContainer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    display: block;
+    background: transparent;
+}
+.loginSide{
+    width: 50%;
+    height: auto;
+    margin: 32px auto;
+    padding: 16px;
+    outline: none;
+    overflow: hidden;
+    display: block;
+    background: transparent;
+    border-radius: .5em;
+}
+@media only screen and (min-width: 769px) and (max-width: 990px){
+    .loginSide{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .loginSide{
+        width: 80%;
+    }
+}

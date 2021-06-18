@@ -1,0 +1,40 @@
+
+$border-color:#292b2c;
+$button-hover:#374247;
+.footerContainer{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0;
+    padding:0;
+    outline: none;
+    overflow: hidden;
+    .footer{
+        width: 100%;
+        height: 100%;
+        border-top: 1px solid $border-color;
+        display: block;
+        margin: 0;
+        padding: 0;
+        background: #23022E;
+        overflow: hidden;
+        outline: none;
+        text-align: center;
+        padding-top: 60px;
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            overflow: hidden;
+            outline: none;
+            color: #f7f7f7;
+        }
+    }
+}
+@media print {
+    .footerContainer{
+        display: none;
+    }
+}

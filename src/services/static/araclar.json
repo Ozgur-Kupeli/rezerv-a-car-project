@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"RENAULT CLIO 1.5",
+        "number_of_people":4,
+        "number_of_suitcase":1,
+        "gear":"Otomatik",
+        "fuel":"Dizel/Benzin",
+        "age_limit":21,
+        "license_age":1,
+        "daily_price":100,
+        "image":"/carImage/cwniat9orvvjv1t9tzeuz2akg1p3wton.png"
+    },
+    {
+        "id":3,								
+        "name":"FIAT EGEA 1.6",
+        "number_of_people":4,
+        "number_of_suitcase":3,
+        "gear":"Düz",
+        "fuel":"Dizel",
+        "age_limit":21,
+        "license_age":1,
+        "daily_price":200,
+        "image":"/carImage/gdurf0m4s7zsxfdqtmlueg0kb19rr4ml.png"
+    },
+    {
+        "id":4,									
+        "name":"FORD FOCUS 1.6",
+        "number_of_people":4,
+        "number_of_suitcase":2,
+        "gear":"Düz",
+        "fuel":"Dizel",
+        "age_limit":25,
+        "license_age":2,
+        "daily_price":300,
+        "image":"/carImage/gqekgj2n85ieq82y6wk6uhu2zmjx0fjb.png"
+    },
+    {
+        "id":5,									
+        "name":"FORD FOCUS AT 1.5",
+        "number_of_people":4,
+        "number_of_suitcase":2,
+        "gear":"Otomatik",
+        "fuel":"Dizel/Benzin",
+        "age_limit":25,
+        "license_age":2,
+        "daily_price":400,
+        "image":"/carImage/jo22j7o7rb1xent8ialn1hrwpp2h4f5r.png"
+    }
+]

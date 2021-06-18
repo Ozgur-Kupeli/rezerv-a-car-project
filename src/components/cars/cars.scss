@@ -1,0 +1,250 @@
+
+
+.row{
+    height: auto;
+}
+.cardContainer {
+    background:#eff8e2;
+    width: 98%;
+    height: auto;
+    float: left;
+    margin: 5% auto;
+    overflow: hidden;
+    outline: none;
+    padding: 0;
+    position: relative;
+    border: 1px solid rgba(117, 104, 104, 0.5);
+    left: 5%;
+}
+
+.cardHeader {
+    display: block;
+    background: transparent;
+    width: 95%;
+    height: auto;
+    margin: 2.5%;
+    margin-bottom: 0;
+    overflow: hidden;
+    outline: none;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+.cardImage {
+    width: 95%;
+    height: 50%;
+    display: block;
+    margin: 2.5%;
+    overflow: hidden;
+    outline: none;
+    padding: 0;
+    background: transparent;
+}
+.cardText {
+    width: 95%;
+    height: 15%;
+    display: block;
+    margin: 2.5%;
+    overflow: hidden;
+    outline: none;
+    background: transparent;
+    margin-top: -2.5%;
+    margin-bottom: 0%;
+    padding: 0;
+    position: relative;
+}
+.imgContainer {
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+    margin: 1%;
+    margin-bottom: 0;
+    margin-top: 1%;
+    overflow: hidden;
+    outline: none;
+    background: transparent;
+    padding: 0;
+    position: relative;
+}
+.img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2.5%;
+    overflow: hidden;
+    outline: none;
+    background: transparent;
+    padding: 2px;
+    position: relative;
+}
+.imgText {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    position: relative;
+}
+.textAndButton {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    position: relative;
+}
+.uyari {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    outline: none;
+    background: #e3ebd8;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    position: relative;
+}
+.fiyatBttn {
+    width: 100%;
+    height: 100px;
+    display: block; ///////////////////////////none olacak ana sayfada
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+}
+
+.fiyat {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 10px;
+    overflow: hidden;
+    outline: none;
+    background: rgba(35, 2, 46, 0.1);
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 32px;
+    position: relative;
+    top: 70%;
+    div {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        letter-spacing: 0;
+        font-size: 20px;
+        display: inline-block;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background: transparent;
+    }
+}
+.gunluk {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 100%;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background: transparent;
+    position: relative;
+    top: -35%;
+}
+.gun {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background: transparent;
+    position: relative;
+    left: -38%;
+    top: 10%;
+}
+.bttn {
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 auto;
+    overflow: hidden;
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    position: relative;
+    left: 38%;
+    top: -45%;
+    background-color: #23022E;
+    border-radius: 5px;
+    border: 1px solid #327371;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #1cabe3;
+}
+.bttn:hover {
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 auto;
+    overflow: hidden;
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    position: relative;
+    left: 38%;
+    top: -45%;
+    background: #573280;
+    border-radius: 5px;
+    border: 1px solid #327371;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #1cabe3;
+}
+
+

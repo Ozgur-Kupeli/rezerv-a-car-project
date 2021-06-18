@@ -1,0 +1,159 @@
+
+.hamburgerAc {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 26px;
+    max-width: 26px;
+    min-width: 26px;
+    height: 26px;
+    background: transparent;
+    z-index: 997;
+}
+.open {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    display: block;
+    width: 26px;
+    max-width: 26px;
+    min-width: 26px;
+    height: auto;
+    background: transparent;
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    -webkit-transition: opacity 2.5s ease-in-out;
+    -moz-transition: opacity 2.5s ease-in-out;
+    -o-transition: opacity 2.5s ease-in-out;
+    -ms-transition: opacity 2.5s ease-in-out;
+    transition: opacity 2.5s ease-in-out;
+}
+.openHover {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    display: block;
+    width: 26px;
+    max-width: 26px;
+    min-width: 26px;
+    height: auto;
+    background: transparent;
+    position: relative;
+    top: -26px;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.hamburgerKapa {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    display: none;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 26px;
+    max-width: 26px;
+    min-width: 26px;
+    height: 26px;
+    background: transparent;
+    z-index: 996;
+}
+.closee {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    display: block;
+    width: 26px;
+    max-width: 26px;
+    min-width: 26px;
+    height: auto;
+    background: transparent;
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    -webkit-transition: opacity 2.5s ease-in-out;
+    -moz-transition: opacity 2.5s ease-in-out;
+    -o-transition: opacity 2.5s ease-in-out;
+    -ms-transition: opacity 2.5s ease-in-out;
+    transition: opacity 2.5s ease-in-out;
+}
+
+.closeHover {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    display: block;
+    width: 26px;
+    max-width: 26px;
+    min-width: 26px;
+    height: auto;
+    background: transparent;
+    position: relative;
+    top: -26px;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+.hamburgerAc:hover {
+    .open {
+        opacity: 0;
+        -webkit-transition: opacity 0.3s ease-out;
+        -moz-transition: opacity 0.3s ease-out;
+        -o-transition: opacity 0.3s ease-out;
+        -ms-transition: opacity 0.3s ease-out;
+        transition: opacity 0.3s ease-out;
+    }
+    .openHover {
+        opacity: 1;
+        -webkit-transition: opacity 0.7s ease-in;
+        -moz-transition: opacity 0.7s ease-in;
+        -o-transition: opacity 0.7s ease-in;
+        -ms-transition: opacity 0.7s ease-in;
+        transition: opacity 0.7s ease-in;
+    }
+}
+
+
+.hamburgerKapa:hover {
+    .closee {
+        opacity: 0;
+        -webkit-transition: opacity 0.3s ease-out;
+        -moz-transition: opacity 0.3s ease-out;
+        -o-transition: opacity 0.3s ease-out;
+        -ms-transition: opacity 0.3s ease-out;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .closeHover {
+        opacity: 1;
+        -webkit-transition: opacity 0.7s ease-in;
+        -moz-transition: opacity 0.7s ease-in;
+        -o-transition: opacity 0.7s ease-in;
+        -ms-transition: opacity 0.7s ease-in;
+        transition: opacity 0.7s ease-in;
+    }
+}
+

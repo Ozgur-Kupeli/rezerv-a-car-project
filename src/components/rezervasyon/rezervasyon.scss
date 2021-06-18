@@ -1,0 +1,92 @@
+@media print {
+    .nonPrintible{
+        display: none;
+    }
+    .printible {
+        display: block;
+        color: black;
+        font-size: 11pt;
+    }
+}
+.rezervasyonModal{
+    background: transparent;
+}
+.rezervasyonModalPrint{
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+.fasdfdsaf451fdsa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  position: relative;
+  top: -35px;
+};
+.afdsa524f15ds2 {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(#fff, gray);
+  border: 2px solid;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fdsaf52d6sa2f5 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  background: transparent;
+  color: black;
+}
+.sfdsa25f54ds52 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  background: transparent;
+  color: black;
+}
+.sfdgfd51sfds5 {
+  display: block;
+  background: transparent;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  text-shadow: 2px 2px 4px grey;
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+}
+.adf51dsaf41 {
+  display: inline-block;
+  background: transparent;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  font-size: 11px;
+  text-align: center;
+  text-shadow: 2px 2px 4px grey;
+}
+.fdsafvu4far4 {
+  display: inline-block;
+  background: transparent;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+.rtg-transition-enter,
+    .rtg-transition-appear {
+        top: 0;
+        width: 120px;
+        max-height: 30px;
+        color: transparent;
+    }
+    .rtg-transition-enter-active,
+    .rtg-transition-appear-active {
+        top: 45px;
+        width: 400px;
+        height: auto;
+        transition: all 400ms;
+    }
+    .rtg-transition-exit {
+        top: 45px;
+        width: 400px;
+        height: auto;
+    }
+    .rtg-transition-exit-active {
+        top: 0;
+        width: 120px;
+        max-height: 30px;
+        color: transparent;
+        transition: all 400ms;
+    }
+    
+    
+.rtgBody {
+        position: absolute;
+        top: -40px;
+        left: 20%;
+        height: auto;
+        display: inline-block;
+        z-index: 10;
+        box-sizing: border-box;
+        width: 60%;
+        height: auto;
+        padding: 8px 32px;
+        overflow: hidden;
+        background-color: #ff4800;
+        border-radius: 8px;
+        text-align: center;
+    }

@@ -1,0 +1,22 @@
+[
+              {
+                "id": "1",
+                "to": "/araclar",
+                "nav": "Araçlar",
+                "icon": "/navImage/300x300Home.png"
+              },
+
+              {
+                "id": "2",
+                "to": "/rezervasyon/sorgu",
+                "nav": "Rezervasyon Sorgulama",
+                "icon": "/navImage/300x300Sorgula.png"
+              },
+
+              {
+                "id": "3",
+                "to": "/login",
+                "nav": "Giriş Yap",
+                "icon": "/navImage/300x300Login.png"
+              }
+]

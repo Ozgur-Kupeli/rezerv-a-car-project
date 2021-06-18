@@ -1,0 +1,42 @@
+[
+        {
+          "id": "1",
+          "iconLink": "/navImage/twitter512x512.png",
+          "link": "https://twitter.com/twitter?lang=tr",
+          "target": "_blank",
+          "title": "Twitter",
+          "alt": "Twitter"
+        },
+        {
+          "id": "2",
+          "iconLink": "/navImage/facebook512x512.png",
+          "link": "https://www.facebook.com/",
+          "target": "_blank",
+          "title": "Facebook",
+          "alt": "Facebook"
+        },
+        {
+          "id": "3",
+          "iconLink": "/navImage/instagram512x512.png",
+          "link": "https://www.instagram.com/?hl=tr",
+          "target": "_blank",
+          "title": "Instagram",
+          "alt": "Instagram"
+        },
+        {
+          "id": "4",
+          "iconLink": "/navImage/linkedin512x512.png",
+          "link": "https://tr.linkedin.com/",
+          "target": "_blank",
+          "title": "LinkedIn",
+          "alt": "LinkedIn"
+        },
+        {
+          "id": "5",
+          "iconLink": "/navImage/youtube512x512.png",
+          "link": "https://www.youtube.com/?hl=tr&gl=TR",
+          "target": "_blank",
+          "title": "YouTube",
+          "alt": "YouTube"
+        }
+      ]

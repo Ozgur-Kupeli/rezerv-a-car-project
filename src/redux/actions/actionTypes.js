@@ -1,0 +1,9 @@
+export const GET_CARS_SUCCESS = "GET_CARS_SUCCESS";
+export const TRUE_DİSPLAY = "TRUE_DİSPLAY";
+export const FALSE_DİSPLAY = "FALSE_DİSPLAY";
+export const GET_RESERV = "GET_RESERV";
+export const ADD_BOOKED = "ADD_BOOKED";
+export const ADMIN_LOGİN = "ADMIN_LOGİN";
+export const ADMIN_LOGOUT = "ADMIN_LOGOUT";
+export const GET_OFFİCES_SUCCESS = "GET_OFFİCES_SUCCESS";
+export const GET_ALL_REZERVS = "GET_ALL_REZERVS";

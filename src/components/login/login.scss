@@ -1,0 +1,68 @@
+$border-color:#f7f7f7;
+.adminUserLoginContainer{
+    margin: -16px 0;
+    padding: 0;
+    overflow: hidden;
+    outline: none;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+.loginImageContainer{
+    margin: 0 31%;
+    padding: 0;
+    overflow: hidden;
+    outline: none;
+    width: 38%;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.userLogin{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #642978;
+  border-radius: .5em;
+}
+.userLoginContainer {
+  background-color: transparent;
+  text-align: left;
+  padding: 1em;
+  margin: 0;
+  border: 1px solid $border-color;
+  border-radius: .5em;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ 
+}
+ .userLoginHataMesaji{
+    margin: 0 auto;
+    width: auto;
+    padding: 0;
+    height: auto;
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    position: relative;
+    background: transparent;
+  }
+
+.userLoginForm {
+  padding: 1em;
+}
+
+.userLoginLabel {
+  display: flex;
+  font-weight: 600;
+}
+
+.userLoginButton {
+  justify-content: flex-end;
+}
+
+

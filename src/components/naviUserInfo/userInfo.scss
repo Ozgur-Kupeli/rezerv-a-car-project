@@ -1,0 +1,56 @@
+.userVerifyed{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background: #23022e;
+    div{
+        margin: 10px 8%;
+        padding: 0;
+        outline: none;
+        overflow: hidden;
+        width: 84%;
+        height: 30px;
+        background: transparent; 
+        text-align: right;
+        vertical-align: bottom;
+        div{
+            margin: 0 auto;
+            padding: 0;
+            outline: none;
+            overflow: hidden;
+            width: auto;
+            height: 30px;
+            background: transparent; 
+            text-align: right;
+            display: inline-block;
+            font-size: 18px;
+            color:#f7f7f7;
+        }
+        img{
+            margin: 0 16px;
+            padding: 0;
+            outline: none;
+            overflow: hidden;
+            width: 30px;
+            height: 30px;
+            background: transparent; 
+            text-align: right;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    
+}
+@media only screen and (max-width: 991px) {
+    .userVerifyed{
+        background: #f7f7f7;
+        div{
+            div{
+                color: #23022e;
+            }
+        }
+    } 
+}

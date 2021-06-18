@@ -1,0 +1,359 @@
+* {
+    /*
+  npm install -g sass
+  npm install --save-dev sass
+  scss yükle
+
+  npm install react-router-dom
+  yüklü olmalıdır
+  */
+
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+@media print {
+    #nonePrint {
+        display: none;
+    }
+}
+$nav-bg-color: #23022E; //bu rengi js nin sideBar ul sine hex kodu olarak ver rgb almıyor
+$nav-item-color: #ffffff;
+$nav-item-color-hover-not-scrolled: #cecfc7;
+$nav-item-color-hover-scrolled: #cecfc7;
+$nav-item-color-scrolled: #eff8e2;
+$sideBar-bg-color: rgba(246, 247, 249, 0.4); //navi.js sidebar divindeki ul'nin style'ine veriyoruz
+
+
+
+
+
+/****************************logo********************************/
+#logo {
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    border: none;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 9%;
+    top: 15px;
+    background: transparent;
+    z-index: 999;
+}
+#logo img {
+    background: transparent;
+}
+
+/********************navigation************************/
+.navBar {
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 85px;
+    background: transparent;
+    position: absolute;
+    z-index: 995;
+    ul {
+        /*full kaplıyor*/
+        padding: 0;
+        margin: auto;
+        border: none;
+        outline: none;
+        display: inline-block;
+        overflow: hidden;
+        background: transparent;
+        height: auto;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        position: absolute;
+        li {
+            width: auto;
+            height: auto;
+            border: none;
+            overflow: hidden;
+            display: inline-block;
+            background: transparent;
+            padding: 0;
+            margin: 0 auto;
+            position: relative;
+        }
+    }
+}
+.a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $nav-item-color;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 0;
+    margin: 2rem auto;
+    width: auto;
+    position: relative;
+}
+.a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    background-color: #23022E;
+    transform: scaleX(0);
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    transition: 0.3s linear;
+    visibility: hidden;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.a:hover:after {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    visibility: visible;
+    transform: scaleX(1);
+}
+.a:hover {
+    color: #23022E;
+    text-decoration: none;
+}
+/***********************scroll kayınca******************************/
+.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $nav-bg-color;
+    
+    border-bottom: 1px solid rgb(209, 209, 209);
+    .a:hover {
+        color: $nav-item-color-hover-scrolled;
+    }
+    .a:after {
+        background-color: $nav-item-color-hover-scrolled;
+    }
+}
+.yazi {
+    color: $nav-item-color-scrolled;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 0;
+    margin: 2rem auto;
+    width: auto;
+    position: relative;
+}
+
+#HamburgerMenuButton{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    outline: none;
+    background: transparent;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 9%;
+    top: 29.5px;
+}
+#socialMediaBar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    outline: none;
+    background: transparent;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 9%;
+    top: 30px;
+}
+
+
+/*************************responsive***********************************/
+@media only screen and (min-width: 1200px) {
+    #SideBarNavigation {
+        display: none;
+    }    
+    #HamburgerMenuButton{
+        display: none;
+    }
+    .navBar ul li {
+        width: auto;
+        height: auto;
+        border: none;
+        overflow: hidden;
+        display: inline-block;
+        background: transparent;
+        padding: 0;
+        margin: 0 2%;
+        /*margin ile menüler arası boşluğu ayarladık*/
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 1100px) {
+    #SideBarNavigation {
+        display: none;
+    }    
+    #HamburgerMenuButton{
+        display: none;
+    }
+    .navBar ul li {
+        width: auto;
+        height: auto;
+        border: none;
+        overflow: hidden;
+        display: inline-block;
+        background: transparent;
+        padding: 0;
+        margin: 0 1.5%;
+        /*margin ile menüler arası boşluğu ayarladık*/
+    }
+}
+@media only screen and (max-width: 1099px) and (min-width: 992px) {
+    #SideBarNavigation {
+        display: none;
+    }    
+    #HamburgerMenuButton{
+        display: none;
+    }
+
+    .navBar ul li {
+        width: auto;
+        height: auto;
+        border: none;
+        overflow: hidden;
+        display: inline-block;
+        background: transparent;
+        padding: 0;
+        margin: 0 0.8%;
+        /*margin ile menüler arası boşluğu ayarladık*/
+    }
+    .a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $nav-item-color;
+        font-weight: bolder;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        padding: 0;
+        margin: 2rem auto;
+        width: auto;
+        position: relative;
+    }
+    .yazi {
+        color: $nav-item-color-scrolled;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        padding: 0;
+        margin: 2rem auto;
+        width: auto;
+        position: relative;
+    }
+  
+}
+@media only screen and (max-width: 991px) and (min-width: 400px) {
+    #socialMediaBar {
+        display: none;
+    }
+    #HamburgerMenuButton{
+        display: block;
+    }
+    .navBar {
+        position: fixed;
+        top: 50;
+        left: 0;
+        background-color: $nav-bg-color;
+    }
+    .navBar ul {
+        display: none;
+    }
+    
+    #logo {
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        max-width: 60px;
+        min-width: 60px;
+        height: 60px;
+        border: none;
+        overflow: hidden;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: -webkit-calc(91% - 60px);
+        right: -moz-calc(91% - 60px);
+        right: -o-calc(91% - 60px);
+        right: -ms-calc(91% - 60px);
+        right: calc(91% - 60px);
+        /* logoyu ortaya almak için
+        // left: -webkit-calc(50% - 30px);
+        // left: -moz-calc(50% - 30px);
+        // left: -o-calc(50% - 30px);
+        // left: -ms-calc(50% - 30px);
+        // left: calc(50% - 30px);
+*/
+        background: transparent;
+    }
+}
+@media only screen and (max-width: 399px) {
+    #socialMediaBar {
+        display: none;
+    }
+    .navBar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: $nav-bg-color;
+    }
+    .navBar ul {
+        display: none;
+    }
+    #logo {
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        max-width: 40px;
+        min-width: 40px;
+        height: 40px;
+        border: none;
+        overflow: hidden;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: -webkit-calc(50% - 20px);
+        right: -moz-calc(50% - 20px);
+        right: -o-calc(50% - 20px);
+        right: -ms-calc(50% - 20px);
+        right: calc(50% - 20px);
+        background: transparent;
+    }
+   
+}
